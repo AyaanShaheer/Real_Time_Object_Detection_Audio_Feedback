@@ -1,0 +1,16 @@
+#Ignore virtual environment
+myenv/
+
+#Ignore large YOLO weights file
+yolo/yolov3.weights
+
+#Ignore temporary audio files
+output_*.mp3
+
+#Ignore Python cache files
+__pycache__/
+*.pyc 
+
+#Ignore other unnecessary files
+*.logs
+*.tmp 
