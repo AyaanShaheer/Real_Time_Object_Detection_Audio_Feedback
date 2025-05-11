@@ -1,9 +1,9 @@
 # Object Detection with Voice Feedback
 
-This project implements a real-time object detection system with audio feedback to assist visually impaired individuals. It uses the YOLOv3 algorithm to detect objects in a live webcam feed and provides audio descriptions of the objects and their positions (e.g., "mid center person").
+This project implements a real-time object detection system with audio feedback to assist visually impaired individuals. It uses the YOLOv11, YOLOv3, Faster R-CNN Model algorithm to detect objects in a live webcam feed and provides audio descriptions of the objects and their positions (e.g., "mid center person").
 
 ## Features
-- Real-time object detection using YOLOv3 and OpenCV.
+- Real-time object detection using YOLOv3, YOLOv11, Faster R-CNN and OpenCV.
 - Audio feedback using Google Text-to-Speech (gTTS) and pygame for playback.
 - Position-based descriptions (e.g., "top left chair").
 - Optimized to reduce repetitive audio feedback.
